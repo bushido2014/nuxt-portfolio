@@ -76,9 +76,13 @@ export default {
 		font-size: 2em;
 	}
 }
-.menu li {
-
+.menu {
+	margin: 0;
+	padding: 0;
 	list-style-type: none;
+}
+.menu li {
+   
 }
 
 .menu li a {

@@ -9,7 +9,7 @@
           </div>
 				<nav class="main-navigation"> 
 					<div class="menu-main-menu-container">
-					<ul class="flex items-stretch menu">
+					<ul class="flex items-stretch menu list-reset">
 					<li><nuxt-link to="/">Home</nuxt-link></li>
 					<li><nuxt-link to="works">Works</nuxt-link></li>
 					<li><nuxt-link to="contact">Contact</nuxt-link></li>

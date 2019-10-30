@@ -11,7 +11,8 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {name: 'google-site-verification', content: '5iJxBakCYSl1crCWYBh_CcHA9uj1SMukiiVbcuU6QDs' }
+      {name: 'google-site-verification', content: '5iJxBakCYSl1crCWYBh_CcHA9uj1SMukiiVbcuU6QDs' },
+      {name: 'yandex-verification', content: '742f33e9504610f4' }
       // { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [

@@ -36,14 +36,16 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~plugins/ga.js', mode: 'client' }
   ],
 
   /*
   ** Nuxt.js modules
   */
-  modules: [
-  ],
+  modules: ["@nuxtjs/google-analytics"],
+
+  googleAnalytics: {
+    id: "G-S8NZ2VDKEX"
+  },
 
   /*
   ** Build configuration

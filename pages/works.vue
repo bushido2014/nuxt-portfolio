@@ -50,7 +50,7 @@
             <img src="https://i.postimg.cc/13tJxRkL/florans.jpg" alt="" class="portfolio-item__img">
             <div  class="portfolio-item__link">
                 <h5>Zurb Foundation</h5>
-                <a  href ="http://florans.md/" class="portfolio-item__title" target="_blank">Link</a>
+                <a  href ="https://florans.netlify.app/" class="portfolio-item__title" target="_blank">Link</a>
            </div>
           </div>
         </div>

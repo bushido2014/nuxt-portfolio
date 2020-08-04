@@ -12,12 +12,13 @@
   },
   "dependencies": {
     "cross-env": "^7.0.2",
-    "nuxt": "^2.12.2"
+    "npm-check-updates": "^7.0.2",
+    "nuxt": "^2.14.1"
   },
   "devDependencies": {
-    "@nuxtjs/google-analytics": "^2.2.3",
-    "autoprefixer": "^9.7.6",
-    "nodemon": "^2.0.3",
-    "tailwindcss": "~1.4.6"
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "autoprefixer": "^9.8.6",
+    "nodemon": "^2.0.4",
+    "tailwindcss": "~1.6.2"
   }
 }

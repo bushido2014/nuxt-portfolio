@@ -18,15 +18,13 @@
 
 
 <style>
+body {
+font-family: 'Nunito', sans-serif;
+}
+
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
 
@@ -42,7 +40,10 @@ body {
   overflow-x: hidden;
 }
 
-
+.site-header {
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+}
 .site-header, .site-footer {
   background-color: #2c3840;
   width: 100%;
@@ -60,5 +61,10 @@ body {
   opacity: 0;
 }
 
+.section-title {
+  margin: 15px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
 </style>

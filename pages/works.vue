@@ -1,10 +1,10 @@
 <template>
-	<div class="container mx-auto h-screen">
-		<section class="pt-12 pb-6 works">
-		<h2 class="text-center uppercase mb-10">Works</h2>
-		<div class="portfolio flex flex-wrap">
+	
+		<section class="works grid-container">
+		<h2 class="text-center section-title">Works</h2>
+		<div class="portfolio grid-x grid-padding-x">
         
-        <div class="portfolio-item w-full md:w-1/2 lg:w-1/3 flex flex-col px-3 mb-16">
+        <div class="portfolio-item cell large-4 medium-6 small-12">
           <div class="portfolio-item__content">
              <img src="https://i.postimg.cc/sXRLRd97/pahu-page.png" alt="" class="portfolio-item__img">
              <div  class="portfolio-item__link">
@@ -14,7 +14,7 @@
           </div>
         </div>
         
-        <div class="portfolio-item w-full md:w-1/2 lg:w-1/3 flex flex-col px-3 mb-16">
+        <div class="portfolio-item cell large-4 medium-6 small-12">
           <div class="portfolio-item__content">
             <img src="https://i.postimg.cc/tTz4dk0w/santeh23.png" alt="" class="portfolio-item__img">
             <div  class="portfolio-item__link">
@@ -24,7 +24,7 @@
           </div>
         </div>
 
-        <div class="portfolio-item w-full md:w-1/2 lg:w-1/3 flex flex-col px-3 mb-16">
+        <div class="portfolio-item cell large-4 medium-6 small-12">
             <div class="portfolio-item__content">
                 <img src="https://i.postimg.cc/prw1WwKD/fountain.jpg" alt="" class="portfolio-item__img">
             <div  class="portfolio-item__link">
@@ -35,7 +35,7 @@
         </div>
         </div>
 
-        <div class="portfolio-item w-full md:w-1/2 lg:w-1/3 flex flex-col px-3 mb-16">
+        <div class="portfolio-item cell large-4 medium-6 small-12">
             <div class="portfolio-item__content">
             <img src="https://i.postimg.cc/wBR2vfT2/product.jpg" alt="" class="portfolio-item__img">
             <div  class="portfolio-item__link">
@@ -45,7 +45,7 @@
             </div>
         </div>
 
-        <div class="portfolio-item w-full md:w-1/2 lg:w-1/3 flex flex-col px-3 mb-16">
+        <div class="portfolio-item cell large-4 medium-6 small-12">
           <div class="portfolio-item__content">
             <img src="https://i.postimg.cc/13tJxRkL/florans.jpg" alt="" class="portfolio-item__img">
             <div  class="portfolio-item__link">
@@ -55,7 +55,7 @@
           </div>
         </div>
 
-        <div class="portfolio-item w-full md:w-1/2 lg:w-1/3 flex flex-col px-3 mb-16">
+        <div class="portfolio-item cell large-4 medium-6 small-12">
           <div class="portfolio-item__content">
             <img src="https://i.postimg.cc/FH78yxHd/web-wp.png" alt="" class="portfolio-item__img">
             <div  class="portfolio-item__link">
@@ -65,13 +65,16 @@
             </div>
         </div>
     </div>
+    
      </section>
-	</div>
+
 </template>
 
 <script>
-  export default {
 
+
+  export default {
+   
 
 	head () {
     return {
@@ -81,8 +84,7 @@
       ]
     }
   }
-
-}
+  }
 </script>
 
 <style scoped>
@@ -177,6 +179,8 @@
     transform: translate3d(0, 0, 0);
 }
 
-
+.portfolio-item {
+  margin-bottom: 20px;
+}
 
 </style>

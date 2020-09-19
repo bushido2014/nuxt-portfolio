@@ -1,18 +1,18 @@
 <template>
-	<div class="container mx-auto h-screen">
-		<section class="pt-6 pb-6 relative">
-			<h2 class="text-center uppercase mt-6">Contact</h2>
-			<div class="content mt-20">
+	
+		<section class="grid-container">
+			<h2 class="text-center section-title">Contact</h2>
+			<div class="grid-x grid-padding-x contact-wrapp">
 				<ul>
 					<li>
-						<div class="icon-preview-img flex justify-start items-center">
+						<div class="icon-preview-img grid-x">
                 <div> <img src="https://cdn2.iconfinder.com/data/icons/mixed-rounded-flat-icon/512/mail-512.png" alt="email, mail, message icon" class="d-block mx-auto" height="auto" width="32"></div>
                 <div>
                 <a href="mailto:joomjoom2011@gmail.com">joomjoom2011@gmail.com</a>
               </div>
               </div></li>
 					<li>
-						<div class="icon-preview-img flex justify-start items-center">
+						<div class="icon-preview-img grid-x">
                 <div>
                  <img src="https://cdn2.iconfinder.com/data/icons/pittogrammi/142/04-512.png" alt="call, phone, smart icon" class="d-block mx-auto" height="auto" width="32">
                 </div> 
@@ -22,7 +22,7 @@
             </div>
 					</li>
 					<li>
-						<div class="icon-preview-img flex justify-start items-center">
+						<div class="icon-preview-img grid-x">
                 <div>
                  <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" alt="github, mark icon" class="d-block mx-auto" height="auto" width="32">
                 </div>
@@ -33,7 +33,7 @@
 					</li>
 					<li>
 						
-						<div class="icon-preview-img flex justify-start items-center">
+						<div class="icon-preview-img grid-x">
                     <div>
                      <img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/skype-512.png" alt="call, skype icon" class="d-block mx-auto" height="auto" width="32">
                     </div>                
@@ -47,7 +47,7 @@
 			</div>
 		</section>
 		
-	</div>
+	
 </template>
 <script>
 	 export default {
@@ -64,14 +64,25 @@
 
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
+.contact-wrapp [class^="icon-"] {
+	font-size: 22px;
+	margin-right: 5px;
+}
+.contact-wrapp {
+  ul {
+    margin: 0;
+    li {
+      list-style-type: none;
+      margin: 10px 0;
+      
+    }
+  }
+}
 	.icon-preview-img div {
 		margin: 0 10px;
 	}
-	.content ul li {
-		list-style-type: none;
-		margin: 7px 0;
-	}
+	
   @media only screen and (max-width: 560px) {
   .content ul {
     padding: 0;

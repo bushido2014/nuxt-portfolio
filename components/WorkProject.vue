@@ -91,7 +91,7 @@ props: ['imgSrc','title', 'link']
 
 .portfolio-item__content .portfolio-item__link a:hover {
     /*background-color: #fff;*/
-    background-color: #06BC9B;
+    background-color: #1779ba;
     border: 2px solid transparent;
     /*color: #444;*/
     color: #fff;
